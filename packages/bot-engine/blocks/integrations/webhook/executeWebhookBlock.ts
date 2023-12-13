@@ -18,7 +18,7 @@ import { getDefinedVariables, parseAnswers } from '@typebot.io/lib/results'
 import got, { Method, HTTPError, OptionsInit } from 'got'
 import { resumeWebhookExecution } from './resumeWebhookExecution'
 import { ExecuteIntegrationResponse } from '../../../types'
-import { parseVariables } from '../../../variables/parseVariables'
+import { parseVariables } from '@typebot.io/variables/parseVariables'
 import prisma from '@typebot.io/lib/prisma'
 import {
   HttpMethod,
@@ -33,10 +33,11 @@ type ParsedWebhook = ExecutableWebhook & {
 export const responseDefaultTimeout = 10000
 export const longRequestTimeout = 120000
 
-const longReqTimeoutWhitelist = [
+export const longReqTimeoutWhitelist = [
   'https://api.openai.com',
   'https://retune.so',
   'https://www.chatbase.co',
+  'https://channel-connector.orimon.ai',
 ]
 
 export const executeWebhookBlock = async (
