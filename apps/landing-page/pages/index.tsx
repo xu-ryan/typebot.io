@@ -1,4 +1,4 @@
-import { Stack } from '@chakra-ui/react'
+dimport { Stack } from '@chakra-ui/react'
 import { Footer } from 'components/common/Footer'
 import { SocialMetaTags } from 'components/common/SocialMetaTags'
 import { EasyBuildingExperience } from 'components/Homepage/EasyBuildingExperience'
@@ -14,7 +14,7 @@ import { Testimonials } from 'components/Homepage/Testimonials'
 const App = () => {
   return (
     <Stack w="full" overflowX="hidden" bgColor="gray.900">
-      <SocialMetaTags currentUrl={`https://www.typebot.io/`} />
+      <SocialMetaTags currentUrl={`https://www.facto.com.cn/`} />
       <Hero />
       <IntroducingChatApps />
       <EasyBuildingExperience />
