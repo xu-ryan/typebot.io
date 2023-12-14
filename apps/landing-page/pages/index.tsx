@@ -1,4 +1,4 @@
-dimport { Stack } from '@chakra-ui/react'
+import { Stack } from '@chakra-ui/react'
 import { Footer } from 'components/common/Footer'
 import { SocialMetaTags } from 'components/common/SocialMetaTags'
 import { EasyBuildingExperience } from 'components/Homepage/EasyBuildingExperience'
