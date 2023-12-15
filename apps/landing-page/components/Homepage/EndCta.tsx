@@ -32,7 +32,7 @@ export const EndCta = () => {
         <Flex>
           <Button
             as={Link}
-            href="https://app.typebot.io/register"
+            href="https://app.facto.com.cn/register"
             size="lg"
             colorScheme="orange"
             height="4rem"
