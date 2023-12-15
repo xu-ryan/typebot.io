@@ -12,15 +12,14 @@ import {
 import { Logo } from 'assets/icons/Logo'
 import { TextLink } from './TextLink'
 
-const discordServerUrl = 'https://typebot.io/discord'
-const typebotLinkedInUrl = 'https://www.linkedin.com/company/typebot'
-const typebotTwitterUrl = 'https://twitter.com/Typebot_io'
-const baptisteTwitterUrl = 'https://twitter.com/baptisteArno'
-const statusPageUrl = 'https://status.typebot.io'
-export const contactUrl = 'https://bot.typebot.io/landing-page-bubble-en'
-export const roadmapLink = 'https://app.typebot.io/feedback'
-export const documentationLink = 'https://docs.typebot.io'
-export const githubRepoLink = 'https://github.com/baptisteArno/typebot.io'
+const discordServerUrl = 'https://discord.com/invite/BRaAZ4FmFU'
+const typebotLinkedInUrl = 'https://www.linkedin.com/company/defactohk'
+const typebotTwitterUrl = 'https://twitter.com/facto_hk'
+const factoUrl = 'https://www.facto.com.cn'
+const statusPageUrl = 'https://status.facto.com.cn'
+export const contactUrl = 'https://bot.facto.com.cn/landing-page-bubble-en'
+export const roadmapLink = 'https://app.facto.com.cn/feedback'
+export const documentationLink = 'https://docs.facto.com.cn'
 
 export const Footer = () => {
   return (
@@ -36,7 +35,7 @@ export const Footer = () => {
             </HStack>
             <Text>
               Made with ❤️ by{' '}
-              <TextLink href={baptisteTwitterUrl}>@baptisteArno</TextLink>
+              <TextLink href={factoUrl}>@Facto</TextLink>
             </Text>
           </Stack>
           <Stack align={'flex-start'}>
@@ -57,9 +56,6 @@ export const Footer = () => {
             <TextLink href={discordServerUrl} isExternal>
               Discord
             </TextLink>
-            <TextLink href={githubRepoLink} isExternal>
-              GitHub repository
-            </TextLink>
             <TextLink href={typebotTwitterUrl} isExternal>
               Twitter
             </TextLink>
@@ -71,7 +67,7 @@ export const Footer = () => {
           <Stack align={'flex-start'}>
             <ListHeader>Company</ListHeader>
             <TextLink href="/about">About</TextLink>
-            <TextLink href="mailto:support@typebot.io">Contact</TextLink>
+            <TextLink href="mailto:hi@facto.hk">Contact</TextLink>
             <TextLink href={'/terms-of-service'}>Terms of Service</TextLink>
             <TextLink href={'/privacy-policies'}>Privacy Policy</TextLink>
           </Stack>
