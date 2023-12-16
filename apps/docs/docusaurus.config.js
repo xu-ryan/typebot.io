@@ -99,9 +99,6 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: ({ docPath }) => {
-            return `https://github.com/xu-ryan/typebot.io/edit/facto/apps/docs/docs/${docPath}`
-          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
