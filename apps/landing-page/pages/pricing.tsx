@@ -82,7 +82,7 @@ const Pricing = () => {
               <Text fontSize="sm">
                 Typebot is contributing 1% of your subscription to remove CO₂
                 from the atmosphere.{' '}
-                <TextLink href="https://climate.stripe.com/5VCRAq" isExternal>
+                <TextLink href="https://www.stripe.com/climate" isExternal>
                   More info
                 </TextLink>
               </Text>
