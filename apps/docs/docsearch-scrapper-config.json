@@ -1,6 +1,6 @@
 {
   "index_name": "typebot",
-  "start_urls": ["https://docs.typebot.io/"],
+  "start_urls": ["https://docs.facto.com.cn/"],
   "stop_urls": ["open-typebot=true$"],
   "selectors": {
     "lvl0": {
