@@ -2,7 +2,7 @@
 module.exports = {
   title: 'Typebot docs',
   tagline: 'Get to Typebot next level with its documentation',
-  url: 'https://docs.typebot.io',
+  url: 'https://docs.facto.com.cn',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -27,7 +27,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/baptisteArno/typebot.io/tree/main/apps/docs',
+          href: 'https://github.com/xu-ryan/typebot.io/tree/facto/apps/docs',
           label: 'Contribute',
           position: 'right',
         },
@@ -46,12 +46,12 @@ module.exports = {
           items: [
             {
               label: 'Homepage',
-              to: 'https://www.typebot.io',
+              to: 'https://bot.facto.com.cn',
             },
-            { label: 'Status', to: 'https://status.typebot.io' },
+            { label: 'Status', to: 'https://status.facto.com.cn' },
             {
               label: 'Roadmap',
-              to: 'https://app.typebot.io/feedback',
+              to: 'https://app.facto.com.cn/feedback',
             },
           ],
         },
@@ -60,11 +60,11 @@ module.exports = {
           items: [
             {
               label: 'Discord',
-              href: 'https://typebot.io/discord',
+              href: 'https://bot.facto.com.cn/discord',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/Typebot_io',
+              href: 'https://twitter.com/facto_hk',
             },
           ],
         },
@@ -73,11 +73,11 @@ module.exports = {
           items: [
             {
               label: 'Terms of Service',
-              href: 'https://www.typebot.io/terms-of-service',
+              href: 'https://bot.facto.com.cn/terms-of-service',
             },
             {
               label: 'Privacy Policy',
-              href: 'https://www.typebot.io/privacy-policies',
+              href: 'https://bot.facto.com.cn/privacy-policies',
             },
           ],
         },
@@ -100,7 +100,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           editUrl: ({ docPath }) => {
-            return `https://github.com/baptistearno/typebot.io/edit/main/apps/docs/docs/${docPath}`
+            return `https://github.com/xu-ryan/typebot.io/edit/facto/apps/docs/docs/${docPath}`
           },
         },
         theme: {
