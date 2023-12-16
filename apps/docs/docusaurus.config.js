@@ -27,8 +27,8 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/xu-ryan/typebot.io/tree/facto/apps/docs',
-          label: 'Contribute',
+          href: 'mailto:hi@facto.hk',
+          label: 'Feedback',
           position: 'right',
         },
       ],
