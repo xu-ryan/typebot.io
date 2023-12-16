@@ -62,7 +62,7 @@ const nextConfig = {
     return [
       {
         source: '/discord',
-        destination: 'https://discord.gg/xjyQczWAXV',
+        destination: 'https://discord.com/invite/tMR2H5RQc7',
         permanent: true,
       },
     ]
@@ -78,7 +78,7 @@ const nextConfig = {
                 {
                   type: 'header',
                   key: 'referer',
-                  value: `https://typebot.io${path}`,
+                  value: `https://bot.facto.com.cn${path}`,
                 },
               ],
             }))
@@ -90,7 +90,7 @@ const nextConfig = {
                   {
                     type: 'header',
                     key: 'referer',
-                    value: `https://typebot.io${path}`,
+                    value: `https://bot.facto.com.cn${path}`,
                   },
                 ],
               }))
@@ -103,7 +103,7 @@ const nextConfig = {
                   {
                     type: 'header',
                     key: 'referer',
-                    value: `https://typebot.io${path}`,
+                    value: `https://bot.facto.com.cn${path}`,
                   },
                 ],
               }))
