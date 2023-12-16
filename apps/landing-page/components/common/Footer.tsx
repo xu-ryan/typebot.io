@@ -35,7 +35,7 @@ export const Footer = () => {
             </HStack>
             <Text>
               Powered by{' '}
-              <TextLink href={factoUrl}>@Facto</TextLink>
+              <TextLink href={factoUrl}>Facto</TextLink>
             </Text>
           </Stack>
           <Stack align={'flex-start'}>
