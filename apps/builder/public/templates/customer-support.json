@@ -118,9 +118,9 @@
                 "children": [
                   { "text": "👉 " },
                   {
-                    "url": "https://app.typebot.io/feedback",
+                    "url": "https://app.facto.com.cn/feedback",
                     "type": "a",
-                    "children": [{ "text": "https://app.typebot.io/feedback" }]
+                    "children": [{ "text": "https://app.facto.com.cn/feedback" }]
                   },
                   { "text": "" }
                 ]
