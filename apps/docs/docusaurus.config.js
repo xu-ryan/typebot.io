@@ -7,7 +7,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'baptisteArno', // Usually your GitHub org/user name.
+  organizationName: 'Typebot', // Usually your GitHub org/user name.
   themeConfig: {
     navbar: {
       title: 'Typebot',
@@ -34,9 +34,9 @@ module.exports = {
       ],
     },
     algolia: {
-      apiKey: '978429d40094dc0fd2dd02db741b3dbe',
+      apiKey: '04153e63e640c31bfa885f0b1601bf87',
       indexName: 'typebot',
-      appId: '6GBQ91COKA',
+      appId: '35SZIZ28TH',
       contextualSearch: false,
     },
     footer: {
