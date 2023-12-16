@@ -17,7 +17,7 @@ const typebotLinkedInUrl = 'https://www.linkedin.com/company/defactohk'
 const typebotTwitterUrl = 'https://twitter.com/facto_hk'
 const factoUrl = 'https://www.facto.com.cn'
 const statusPageUrl = 'https://status.facto.com.cn'
-export const contactUrl = 'https://bot.facto.com.cn/landing-page-bubble-en'
+export const contactUrl = 'https://bots.facto.com.cn/landing-page-bubble-en'
 export const roadmapLink = 'https://app.facto.com.cn/feedback'
 export const documentationLink = 'https://docs.facto.com.cn'
 
