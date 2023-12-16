@@ -12,7 +12,7 @@ import {
 import { Logo } from 'assets/icons/Logo'
 import { TextLink } from './TextLink'
 
-const discordServerUrl = 'https://discord.com/invite/BRaAZ4FmFU'
+const discordServerUrl = 'https://discord.gg/tMR2H5RQc7'
 const typebotLinkedInUrl = 'https://www.linkedin.com/company/defactohk'
 const typebotTwitterUrl = 'https://twitter.com/facto_hk'
 const factoUrl = 'https://www.facto.com.cn'
@@ -34,7 +34,7 @@ export const Footer = () => {
               </Heading>
             </HStack>
             <Text>
-              Made with ❤️ by{' '}
+              Powered by{' '}
               <TextLink href={factoUrl}>@Facto</TextLink>
             </Text>
           </Stack>
