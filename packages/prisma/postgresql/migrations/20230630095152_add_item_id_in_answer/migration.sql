@@ -14,7 +14,7 @@ ADD
 CREATE INDEX IF NOT EXISTS "Answer_blockId_itemId_idx" ON "Answer"("blockId", "itemId");
 
 -- CreateIndex
-CREATE INDEX IF NOT EXISTS "Answer_storageUsed_idx_20230630095152" ON "Answer"("storageUsed");
+CREATE INDEX IF NOT EXISTS "Answer_storageUsed_idx" ON "Answer"("storageUsed");
 
 -- CreateIndex
 CREATE INDEX IF NOT EXISTS "Result_typebotId_hasStarted_createdAt_idx" ON "Result"("typebotId", "hasStarted", "createdAt" DESC);
