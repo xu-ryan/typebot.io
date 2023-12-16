@@ -9,7 +9,7 @@ const AboutPage = () => {
   return (
     <div className="flex flex-col items-center w-full overflow-x-hidden ">
       <Header />
-      <SocialMetaTags currentUrl={`https://www.facto.com.cn/about`} />
+      <SocialMetaTags currentUrl={`https://bot.facto.com.cn/about`} />
       <Stack
         spacing={10}
         mx="auto"
