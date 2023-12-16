@@ -24,8 +24,8 @@ const createHtmlFile = () => {
         workspaceName={'Typebot'}
         typebotName={'Lead Generation'}
         url={'https://app.facto.com.cn'}
-        hostEmail={'host@typebot.io'}
-        guestEmail={'guest@typebot.io'}
+        hostEmail={'host@facto.com.cn'}
+        guestEmail={'guest@facto.com.cn'}
       />
     ).html
   )
@@ -35,8 +35,8 @@ const createHtmlFile = () => {
       <WorkspaceMemberInvitation
         workspaceName={'Typebot'}
         url={'https://app.facto.com.cn'}
-        hostEmail={'host@typebot.io'}
-        guestEmail={'guest@typebot.io'}
+        hostEmail={'host@facto.com.cn'}
+        guestEmail={'guest@facto.com.cn'}
       />
     ).html
   )
@@ -57,8 +57,8 @@ const createHtmlFile = () => {
         resultsUrl={'https://app.facto.com.cn'}
         answers={{
           'Group #1': 'Answer #1',
-          Name: 'Baptiste',
-          Email: 'baptiste.arnaud95@gmail.com',
+          Name: 'Typebot',
+          Email: 'hi@facto.hk',
         }}
       />
     ).html
