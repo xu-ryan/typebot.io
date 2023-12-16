@@ -6,10 +6,6 @@ Typebot complies with the GDPR (the 2018 EU General Data Protection Regulation).
 
 If you need more information about our Privacy and Security Policies, check out the [Privacy Policies](https://www.typebot.io/privacy-policies).
 
-## Where is my data stored?
-
-Typebot relies on an AWS-managed database located in London (eu-west-2).
-
 ## Who can access my data
 
 Only the typebot's creator, his workspace teammates and collaborators he explicitely invited can access the data.
