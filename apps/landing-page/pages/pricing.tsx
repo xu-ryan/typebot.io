@@ -36,7 +36,7 @@ const Pricing = () => {
         bgGradient="linear(to-b, gray.900, gray.800)"
         pb={40}
       >
-        <SocialMetaTags currentUrl={`https://www.facto.com.cn/pricing`} />
+        <SocialMetaTags currentUrl={`https://bot.facto.com.cn/pricing`} />
         <BackgroundPolygons />
         <DarkMode>
           <Header />
