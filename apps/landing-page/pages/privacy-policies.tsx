@@ -11,7 +11,7 @@ const PrivacyPolicies = () => {
         currentUrl={`https://bot.facto.com.cn/privacy-policies`}
         title="Typebot - Privacy & Policies"
       />
-      <Stack spacing={10} mx="auto" maxW="3xl" my="20">
+      <Stack spacing={10} mx="auto" maxW="3xl" my="20" paddingInlineStart="8" paddingInlineEnd="8">
         <Heading as="h1">Privacy Policy for Typebot</Heading>
 
         <p>
