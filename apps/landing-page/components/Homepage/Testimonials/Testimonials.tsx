@@ -195,7 +195,7 @@ const testimonials: TestimonialData[][] = [
       avatarSrc: annaFilouPictureSrc,
       role: 'Geek, Designer, Illustrator, Web Dev',
       content:
-        "Seems like the product I've been waiting for Typeform to make! 😝",
+        "Seems like the product I've been waiting for Typeform to make!",
     },
   ],
 ]
@@ -205,7 +205,7 @@ export const Testimonials = () => {
     <Flex as="section" justify="center">
       <VStack spacing={12} pt={'52'} px="4" maxW="1400px">
         <Heading textAlign={'center'} data-aos="fade">
-          They&apos;ve tried, they never looked back. 💙
+          They&apos;ve tried, they never looked back.
         </Heading>
         <SimpleGrid columns={[1, 2, 3]} spacing="6">
           {testimonials.map((testimonialGroup, index) => (
