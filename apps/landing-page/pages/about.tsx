@@ -22,29 +22,6 @@ const AboutPage = () => {
           <Heading as="h1">Why Typebot?</Heading>
         </Flex>
         <Text>
-          I&apos;m Baptiste, 28 years old. I&apos;m a software product engineer.
-          I am passionated about great user experiences and beautiful
-          interfaces.
-        </Text>
-        <Text>
-          This is why I&apos;ve started working on Typebot, 3 years ago. It is
-          my attempt on a great chatbot builder.
-        </Text>
-        <Text>
-          In France, people don&apos;t like chatbots. They always think about it
-          as the guard before getting the chance to talk to a human. You ask a
-          question to a robot and it tries to understand what you&apos;re saying
-          and help, but it does not a great job at this. (now, it is maybe not
-          that accurate since the rise of LLMs)
-        </Text>
-        <Text>But I think we undervalue the potential of chatbots.</Text>
-        <Text>
-          You chat with friends, colleagues and family on messaging platform
-          daily. You are used and you like this chat experience. That&apos;s why
-          businesses need to leverage this, it&apos;s a place where conversion
-          is high.
-        </Text>
-        <Text>
           In an ideal world, a user should be able to chat with a human from a
           company and have an instant answer. The problem is that it is
           synchronous, time-consuming and it requires a huge customer support
@@ -61,7 +38,7 @@ const AboutPage = () => {
         </Text>
         <Text>A great chatbot should:</Text>
         <List listStyleType="initial">
-          <ListItem>Provide a customised experience to the user</ListItem>
+          <ListItem>Provide a customized experience to the user</ListItem>
           <ListItem>
             Have a great user interface and beautiful animations
           </ListItem>
@@ -88,13 +65,8 @@ const AboutPage = () => {
         </Text>
         <Text>This is what Typebot provides.</Text>
         <Text>
-          I&apos;ve built this tool by focusing on user empowering. Typebot is
-          extremely flexible and provides the building blocks to create great
-          chat experiences. Often times, the more freedom you give to the user,
-          the less intuitive the tool become. I try not to fall into that trap
-          with Typebot by providing the best defaults for each option. I also
-          try to help you learn master the tool with good templates and video
-          tutorials.
+          Typebot is extremely flexible and provides the building blocks to create great
+          chat experiences.
         </Text>
       </Stack>
       <EndCta />
