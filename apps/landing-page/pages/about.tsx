@@ -17,6 +17,8 @@ const AboutPage = () => {
         my="20"
         fontSize="17px"
         textAlign="justify"
+        paddingInlineStart="8"
+        paddingInlineEnd="8"
       >
         <Flex w="full">
           <Heading as="h1">Why Typebot?</Heading>
