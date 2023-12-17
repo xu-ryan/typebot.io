@@ -9,9 +9,9 @@ export const links = [
     label: 'Resources',
     children: [
       {
-        label: 'GitHub repository',
-        description: 'Check out the entire source code of the project',
-        href: 'https://github.com/xu-ryan/typebot.io',
+        label: 'Video Tutorials',
+        description: 'Explore quick and easy videos to become a Typebot user',
+        href: 'https://space.bilibili.com/442427698/',
         icon: <GitHubIcon fill="blue.300" />,
       },
       {
