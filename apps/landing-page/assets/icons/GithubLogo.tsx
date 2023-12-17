@@ -5,8 +5,8 @@ export const GitHubIcon = (props: IconProps) => (
   <Icon
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 48 48"
-    width="24"
-    height="24"
+    width="12"
+    height="12"
     fill="none"
     stroke="currentColor"
     strokeWidth="2"
