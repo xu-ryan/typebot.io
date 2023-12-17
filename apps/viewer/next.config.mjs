@@ -29,6 +29,7 @@ const landingPagePaths = [
   '/privacy-policies',
   '/terms-of-service',
   '/about',
+  '/oss-friends',
 ]
 
 /** @type {import('next').NextConfig} */
@@ -61,7 +62,7 @@ const nextConfig = {
     return [
       {
         source: '/discord',
-        destination: 'https://discord.com/invite/tMR2H5RQc7',
+        destination: 'https://discord.gg/xjyQczWAXV',
         permanent: true,
       },
     ]
@@ -77,7 +78,7 @@ const nextConfig = {
                 {
                   type: 'header',
                   key: 'referer',
-                  value: `https://bot.facto.com.cn${path}`,
+                  value: `https://typebot.io${path}`,
                 },
               ],
             }))
@@ -89,7 +90,7 @@ const nextConfig = {
                   {
                     type: 'header',
                     key: 'referer',
-                    value: `https://bot.facto.com.cn${path}`,
+                    value: `https://typebot.io${path}`,
                   },
                 ],
               }))
@@ -102,7 +103,7 @@ const nextConfig = {
                   {
                     type: 'header',
                     key: 'referer',
-                    value: `https://bot.facto.com.cn${path}`,
+                    value: `https://typebot.io${path}`,
                   },
                 ],
               }))
@@ -114,7 +115,7 @@ const nextConfig = {
                 has: [
                   {
                     type: 'host',
-                    value: 'bots.facto.com.cn',
+                    value: 'typebot.io',
                   },
                 ],
               }))
