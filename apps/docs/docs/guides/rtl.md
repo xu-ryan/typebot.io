@@ -19,4 +19,4 @@
 }
 ```
 
-If there is any visual flaw, [contact me](mailto:support@typebot.freshdesk.com) so that I can adjust the CSS rules
+If there is any visual flaw, [contact us](mailto:hi@facto.hk) so that we can adjust the CSS rules
