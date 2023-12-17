@@ -29,7 +29,6 @@ const landingPagePaths = [
   '/privacy-policies',
   '/terms-of-service',
   '/about',
-  '/oss-friends',
 ]
 
 /** @type {import('next').NextConfig} */
@@ -115,7 +114,7 @@ const nextConfig = {
                 has: [
                   {
                     type: 'host',
-                    value: 'typebot.io',
+                    value: 'bots.facto.com.cn',
                   },
                 ],
               }))
