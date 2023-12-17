@@ -30,7 +30,7 @@ export const WebflowPopupInstructions = () => {
       </OrderedList>
       <Text fontSize="sm" colorScheme="gray" pl="5">
         Check out the{' '}
-        <TextLink href="https://docs.typebot.io/embed/webflow#popup" isExternal>
+        <TextLink href="https://docs.facto.com.cn/embed/webflow#popup" isExternal>
           Webflow embed documentation
         </TextLink>{' '}
         for more options.
