@@ -9,7 +9,7 @@ Typebot currently offers 2 APIs: **Builder** and **Chat**
 
 ## Builder
 
-The Builder API is about what you can edit on https://app.typebot.io (i.e. create typebots, insert blocks etc, get results...). It is currently under active development and new endpoints will be added incrementally.
+The Builder API is about what you can edit on https://app.facto.com.cn (i.e. create typebots, insert blocks etc, get results...). It is currently under active development and new endpoints will be added incrementally.
 
 ## Chat
 
