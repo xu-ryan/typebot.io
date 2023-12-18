@@ -28,4 +28,4 @@ if({{Category}} === 'qualified') {
 }
 ```
 
-Do you need to do something but you're not sure how to? [Join the Discord server](https://typebot.io/discord) and get instant help!
+Do you need to do something but you're not sure how to? [Join the Discord server](https://bot.facto.com.cn/discord) and get instant help!
