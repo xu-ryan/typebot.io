@@ -8,7 +8,7 @@ Every API resources are protected, and therefore require that you authenticate u
 
 ## Generate a token
 
-1. Navigate to your typebot dashboard (https://app.typebot.io/typebots)
+1. Navigate to your typebot dashboard (https://app.facto.com.cn/typebots)
 2. Click on Settings & Members > My account
 3. Under the "API tokens" section, click on "Create"
 4. Give it a name, then click on "Create token"
@@ -27,7 +27,7 @@ You can authenticate by adding an `Authorization` header to all your HTTP calls.
 Example:
 
 ```sh
-curl -L -X GET 'https://app.typebot.io/api/typebots/:typebotId/results' \
+curl -L -X GET 'https://app.facto.com.cn/api/typebots/:typebotId/results' \
 -H 'Accept: application/json' \
 -H 'Authorization: Bearer myAwesomeToken'
 ```
