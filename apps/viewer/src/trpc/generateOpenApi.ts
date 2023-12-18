@@ -5,8 +5,8 @@ import { appRouter } from '@/helpers/server/appRouter'
 const openApiDocument = generateOpenApiDocument(appRouter, {
   title: 'Chat API',
   version: '3.0.0',
-  baseUrl: 'https://typebot.io/api',
-  docsUrl: 'https://docs.typebot.io/api',
+  baseUrl: 'https://bot.facto.com.cn/api',
+  docsUrl: 'https://docs.facto.com.cn/api',
 })
 
 writeFileSync(
