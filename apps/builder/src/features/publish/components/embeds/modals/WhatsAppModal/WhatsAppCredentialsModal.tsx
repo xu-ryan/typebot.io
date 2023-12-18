@@ -299,7 +299,7 @@ const Requirements = () => (
     <Text>
       Make sure you have{' '}
       <TextLink
-        href="https://docs.typebot.io/embed/whatsapp/create-meta-app"
+        href="https://docs.facto.com.cn/embed/whatsapp/create-meta-app"
         isExternal
       >
         created a WhatsApp Meta app
