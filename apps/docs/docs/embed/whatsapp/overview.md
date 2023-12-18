@@ -6,7 +6,7 @@ title: Overview
 
 # WhatsApp
 
-WhatsApp integration is currently in beta. If you encounter any issue, please contact me directly using the Bubble in app.typebot.io.
+WhatsApp integration is currently in beta. If you encounter any issue, please contact me directly using the Bubble in app.facto.com.cn.
 
 ## Preview
 
