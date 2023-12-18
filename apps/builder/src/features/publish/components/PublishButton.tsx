@@ -159,7 +159,7 @@ export const PublishButton = ({
               <Text fontWeight="bold">
                 Make sure to check out all the{' '}
                 <TextLink
-                  href="https://docs.typebot.io/breaking-changes#typebot-v6"
+                  href="https://docs.facto.com.cn/breaking-changes#typebot-v6"
                   isExternal
                 >
                   associated breaking changes
