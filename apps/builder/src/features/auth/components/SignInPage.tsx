@@ -4,6 +4,7 @@ import { T, useTranslate } from '@tolgee/react'
 import { VStack, Heading, Text } from '@chakra-ui/react'
 import { useRouter } from 'next/router'
 import { SignInForm } from './SignInForm'
+import { Image } from '@chakra-ui/react';
 
 type Props = {
   type: 'signin' | 'signup'
