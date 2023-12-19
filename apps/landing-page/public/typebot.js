@@ -31,7 +31,7 @@ var  url=location.href;
     wx.ready(function () {
          //分享到朋友圈
      wx.updateTimelineShareData({
-       title: 'Typebot',
+       title: 'Typebot - Extremely flexible AI chatbot builder',
        link: url,
        imgUrl: 'https://bot.facto.com.cn/images/typebot.png',
        success: function (res) {
