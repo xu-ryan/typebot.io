@@ -24,7 +24,6 @@ export const SignInPage = ({ type }: Props) => {
             : t('auth.register.heading')
         }
       />
-
       <Image
   src="/images/logo.svg"
   alt="Typebot"
@@ -33,7 +32,6 @@ export const SignInPage = ({ type }: Props) => {
     height: 'auto',
   }}
       />
-      
       <Heading
         onClick={() => {
           throw new Error('Sentry is working')
