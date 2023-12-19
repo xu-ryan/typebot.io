@@ -18,8 +18,8 @@ var  url=location.href;
                 nonceStr: data.nonceStr,
                 signature: data.signature,
                 jsApiList: [
-                    'updateAppMessageShareData', //分享到朋友圈
-                    'updateTimelineShareData',//分享给朋友
+                    'updateAppMessageShareData',
+                    'updateTimelineShareData',
                 ]
             });
         },
@@ -29,22 +29,21 @@ var  url=location.href;
     });
   
     wx.ready(function () {
-         
          //分享到朋友圈
      wx.updateTimelineShareData({
-       title: 'Facto - 官方网站 | 通过数字解决方案，我们助力企业实现潜力价值增长。',
+       title: 'Typebot',
        link: url,
-       imgUrl: 'https://www.facto.com.cn/static/wx-share.png',
+       imgUrl: 'https://bot.facto.com.cn/images/typebot.png',
        success: function (res) {
           
        }
      })
  		//分享给朋友
      wx.updateAppMessageShareData({
-       title: 'Facto - 官方网站',
-       desc: '通过数字解决方案，我们助力企业实现潜力价值增长。',
+       title: 'Typebot',
+       desc: 'Extremely flexible AI chatbots',
        link: url,
-       imgUrl:  'https://www.facto.com.cn/static/wx-share.png',
+       imgUrl:  'https://bot.facto.com.cn/images/typebot.png',
        success: function (res) {
          
        }
