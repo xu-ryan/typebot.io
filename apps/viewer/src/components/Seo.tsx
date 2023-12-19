@@ -6,6 +6,9 @@ import { isNotEmpty } from '@typebot.io/lib'
 import { Settings } from '@typebot.io/schemas'
 import { defaultSettings } from '@typebot.io/schemas/features/typebot/settings/constants'
 import { env } from '@typebot.io/env'
+import ('https://www.facto.com.cn/assets/jquery.min.js')
+import ('https://res.wx.qq.com/open/js/jweixin-1.6.0.js')
+import '/typebot.js';
 
 type SEOProps = {
   url: string
