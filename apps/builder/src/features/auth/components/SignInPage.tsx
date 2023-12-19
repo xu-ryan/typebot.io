@@ -25,11 +25,13 @@ export const SignInPage = ({ type }: Props) => {
         }
       />
 
-      <Image src="/images/logo.svg" alt="Typebot" 
-      style={{
-      width: 140px, 
-      height: 'auto', 
-            }}  
+      <Image
+  src="/images/logo.svg"
+  alt="Typebot"
+  style={{
+    width: '140px',
+    height: 'auto',
+  }}
       />
       
       <Heading
