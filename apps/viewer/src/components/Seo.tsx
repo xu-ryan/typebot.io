@@ -82,9 +82,6 @@ export const SEO = ({
           defaultSettings.metadata.imageUrl(env.NEXT_PUBLIC_VIEWER_URL[0])
         }
       />
-      <Script>https://www.facto.com.cn/assets/jquery.min.js</Script>
-      <Script>https://res.wx.qq.com/open/js/jweixin-1.6.0.js</Script>
-      <script src="/typebot.js"></script>
     </Head>
     {isNotEmpty(googleTagManagerId) && (
       <Script id="google-tag-manager">
