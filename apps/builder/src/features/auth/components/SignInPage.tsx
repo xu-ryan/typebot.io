@@ -23,6 +23,8 @@ export const SignInPage = ({ type }: Props) => {
             : t('auth.register.heading')
         }
       />
+
+      <Image src="/images/og.png" alt="Typebot" />
       <Heading
         onClick={() => {
           throw new Error('Sentry is working')
