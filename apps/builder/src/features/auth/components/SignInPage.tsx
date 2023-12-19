@@ -25,7 +25,7 @@ export const SignInPage = ({ type }: Props) => {
         }
       />
 
-      <Image src="/images/og.png" alt="Typebot" />
+      <Image src="/images/logo.svg" alt="Typebot" />
       <Heading
         onClick={() => {
           throw new Error('Sentry is working')
