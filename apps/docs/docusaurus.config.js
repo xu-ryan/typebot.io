@@ -33,6 +33,12 @@ module.exports = {
         },
       ],
     },
+        algolia: {
+      apiKey: '04153e63e640c31bfa885f0b1601bf87',
+      indexName: 'typebot',
+      appId: '35SZIZ28TH',
+      contextualSearch: false,
+    },
     footer: {
       links: [
         {
