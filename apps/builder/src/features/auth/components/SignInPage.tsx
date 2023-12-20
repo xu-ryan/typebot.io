@@ -28,7 +28,7 @@ export const SignInPage = ({ type }: Props) => {
   src="/images/logo.svg"
   alt="Typebot"
   style={{
-    width: '120px',
+    width: '100px',
     height: 'auto',
   }}
       />
