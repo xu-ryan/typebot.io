@@ -114,7 +114,7 @@ const nextConfig = {
                 has: [
                   {
                     type: 'host',
-                    value: 'bots.facto.com.cn',
+                    value: 'bot.facto.com.cn',
                   },
                 ],
               }))
