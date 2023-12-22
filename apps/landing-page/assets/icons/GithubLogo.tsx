@@ -14,6 +14,6 @@ export const GitHubIcon = (props: IconProps) => (
     strokeLinejoin="round"
     {...props}
   >
-    <path d="M18.5 24V16.2058L25.25 20.1029L32 24L25.25 27.8971L18.5 31.7942V24Z"/></path>
+    <path d="M18.5 24V16.2058L25.25 20.1029L32 24L25.25 27.8971L18.5 31.7942V24Z"/>
   </Icon>
 )
