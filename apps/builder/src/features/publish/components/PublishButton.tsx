@@ -154,12 +154,12 @@ export const PublishButton = ({
             <Stack spacing="3">
               <Text>
                 You are about to a deploy a version of your bot with an updated
-                engine. (Typebot V6).
+                engine (Typebot V6).
               </Text>
               <Text fontWeight="bold">
                 Make sure to check out all the{' '}
                 <TextLink
-                  href="https://docs.facto.com.cn/breaking-changes#typebot-v6"
+                  href="https://docs.typebot.io/breaking-changes#typebot-v6"
                   isExternal
                 >
                   associated breaking changes

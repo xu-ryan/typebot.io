@@ -3,7 +3,6 @@ import { Plan } from '@typebot.io/prisma'
 import { TextLink } from '@/components/TextLink'
 import { useToast } from '@/hooks/useToast'
 import { trpc } from '@/lib/trpc'
-import { Workspace } from '@typebot.io/schemas'
 import { PreCheckoutModal, PreCheckoutModalProps } from './PreCheckoutModal'
 import { useState } from 'react'
 import { ParentModalProvider } from '@/features/graph/providers/ParentModalProvider'
@@ -13,9 +12,10 @@ import { ProPlanPricingCard } from './ProPlanPricingCard'
 import { useTranslate } from '@tolgee/react'
 import { StripeClimateLogo } from './StripeClimateLogo'
 import { guessIfUserIsEuropean } from '@typebot.io/lib/billing/guessIfUserIsEuropean'
+import { WorkspaceInApp } from '@/features/workspace/WorkspaceProvider'
 
 type Props = {
-  workspace: Workspace
+  workspace: WorkspaceInApp
   excludedPlans?: ('STARTER' | 'PRO')[]
 }
 
@@ -88,7 +88,7 @@ export const ChangePlanForm = ({ workspace, excludedPlans }: Props) => {
         <StripeClimateLogo />
         <Text fontSize="xs" color="gray.500">
           {t('billing.contribution.preLink')}{' '}
-          <TextLink href="https://www.stripe.com/climate" isExternal>
+          <TextLink href="https://climate.stripe.com/5VCRAq" isExternal>
             {t('billing.contribution.link')}
           </TextLink>
         </Text>
@@ -129,7 +129,7 @@ export const ChangePlanForm = ({ workspace, excludedPlans }: Props) => {
 
       <Text color="gray.500">
         {t('billing.customLimit.preLink')}{' '}
-        <TextLink href={'https://bots.facto.com.cn/enterprise-lead-form'} isExternal>
+        <TextLink href={'https://typebot.io/enterprise-lead-form'} isExternal>
           {t('billing.customLimit.link')}
         </TextLink>
       </Text>

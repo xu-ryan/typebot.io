@@ -1,13 +1,13 @@
 import { createContext } from '@/helpers/server/context'
 import * as Sentry from '@sentry/nextjs'
 import { NextApiRequest, NextApiResponse } from 'next'
-import { createOpenApiNextHandler } from 'trpc-openapi'
+import { createOpenApiNextHandler } from '@lilyrose2798/trpc-openapi'
 import cors from 'nextjs-cors'
 import { publicRouter } from '@/helpers/server/routers/publicRouter'
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   await cors(req, res, {
-    origin: ['https://docs.facto.com.cn', 'http://localhost:3000'],
+    origin: ['https://docs.typebot.io', 'http://localhost:3000'],
   })
 
   return createOpenApiNextHandler({
