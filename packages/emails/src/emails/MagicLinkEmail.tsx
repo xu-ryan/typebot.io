@@ -39,7 +39,7 @@ export const MagicLinkEmail = ({ url }: Props) => (
           </Text>
           <Text>
             Best,
-            <br />- Typebot Team.
+            <br />- Facto Team.
           </Text>
         </MjmlColumn>
       </MjmlSection>

@@ -87,7 +87,7 @@ export const Header = () => {
           </Button>
           <Button
             as={Link}
-            href="https://app.typebot.io/signin"
+            href="https://app.facto.com.cn/signin"
             colorScheme="blue"
             variant="outline"
             fontWeight={700}
@@ -96,7 +96,7 @@ export const Header = () => {
           </Button>
           <Button
             as={Link}
-            href="https://app.typebot.io/register"
+            href="https://app.facto.com.cn/register"
             colorScheme="orange"
             fontWeight={700}
           >

@@ -36,7 +36,7 @@ const Pricing = () => {
         bgGradient="linear(to-b, gray.900, gray.800)"
         pb={40}
       >
-        <SocialMetaTags currentUrl={`https://www.typebot.io/pricing`} />
+        <SocialMetaTags currentUrl={`https://bot.facto.com.cn/pricing`} />
         <BackgroundPolygons />
         <DarkMode>
           <Header />
@@ -82,7 +82,7 @@ const Pricing = () => {
               <Text fontSize="sm">
                 Typebot is contributing 1% of your subscription to remove CO₂
                 from the atmosphere.{' '}
-                <TextLink href="https://climate.stripe.com/5VCRAq" isExternal>
+                <TextLink href="https://www.stripe.com/climate" isExternal>
                   More info
                 </TextLink>
               </Text>

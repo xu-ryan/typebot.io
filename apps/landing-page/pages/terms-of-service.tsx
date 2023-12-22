@@ -6,16 +6,16 @@ import { TextLink } from 'components/common/TextLink'
 const PrivacyPolicies = () => {
   return (
     <div className="flex flex-col items-center w-full overflow-x-hidden ">
-      <SocialMetaTags currentUrl={`https://www.typebot.io/terms-of-service`} />
+      <SocialMetaTags currentUrl={`https://bot.facto.com.cn/terms-of-service`} />
       <Header />
-      <Stack spacing={10} mx="auto" maxW="3xl" my="20">
+      <Stack spacing={10} mx="auto" maxW="3xl" my="20" paddingInlineStart="8" paddingInlineEnd="8">
         <Heading as="h1">Website Terms and Conditions of Use</Heading>
 
         <Heading>1. Terms</Heading>
 
         <p>
-          By accessing this Website, accessible from https://typebot.io and
-          https://app.typebot.io, you are agreeing to be bound by these Website
+          By accessing this Website, accessible from https://bot.facto.com.cn and
+          https://app.facto.com.cn, you are agreeing to be bound by these Website
           Terms and Conditions of Use and agree that you are responsible for the
           agreement with any applicable local laws. If you disagree with any of
           these terms, you are prohibited from accessing this site. The

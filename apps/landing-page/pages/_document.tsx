@@ -22,6 +22,9 @@ class MyDocument extends Document {
           </noscript>
           {/* eslint-disable-next-line @next/next/no-sync-scripts */}
           <script src="/__ENV.js" />
+          <script src="https://www.facto.com.cn/assets/jquery.min.js" />
+          <script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js" />
+          <script src="/typebot.js" />
         </Head>
         <body style={{ backgroundColor: '#171923' }}>
           <ColorModeScript initialColorMode={theme.config.initialColorMode} />

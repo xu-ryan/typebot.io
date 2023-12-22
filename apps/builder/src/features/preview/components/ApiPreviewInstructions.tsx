@@ -90,7 +90,7 @@ export const ApiPreviewInstructions = (props: StackProps) => {
       <Text fontSize="sm" pl="1">
         Check out the{' '}
         <TextLink
-          href="https://docs.typebot.io/api-reference/chat/start-preview-chat"
+          href="https://docs.facto.com.cn/api-reference/chat/start-preview-chat"
           isExternal
         >
           API reference

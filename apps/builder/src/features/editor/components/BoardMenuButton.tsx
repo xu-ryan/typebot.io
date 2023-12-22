@@ -52,7 +52,7 @@ export const BoardMenuButton = (props: FlexProps) => {
   }
 
   const redirectToDocumentation = () =>
-    window.open('https://docs.typebot.io/get-started/overview', '_blank')
+    window.open('https://docs.facto.com.cn/get-started/overview', '_blank')
 
   return (
     <Flex

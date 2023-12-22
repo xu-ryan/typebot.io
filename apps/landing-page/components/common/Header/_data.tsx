@@ -9,23 +9,23 @@ export const links = [
     label: 'Resources',
     children: [
       {
-        label: 'GitHub repository',
-        description: 'Check out the entire source code of the project',
-        href: 'https://github.com/baptisteArno/typebot.io',
+        label: 'Video Tutorials',
+        description: 'Explore quick and easy videos to become a Typebot user',
+        href: 'https://space.bilibili.com/442427698',
         icon: <GitHubIcon fill="blue.300" />,
       },
       {
         label: 'Documentation',
         description:
           "Everything you need to know about how to use Typebot's builder",
-        href: 'https://docs.typebot.io',
+        href: 'https://docs.facto.com.cn',
         icon: <DocIcon />,
       },
       {
         label: 'Roadmap',
         description:
           "Follow the development and make suggestions for which features you'd like to see",
-        href: 'https://feedback.typebot.io/roadmap',
+        href: 'https://feedback.facto.com.cn/roadmap',
         icon: <MapIcon />,
       },
       {

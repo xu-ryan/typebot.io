@@ -4,6 +4,7 @@ import { T, useTranslate } from '@tolgee/react'
 import { VStack, Heading, Text } from '@chakra-ui/react'
 import { useRouter } from 'next/router'
 import { SignInForm } from './SignInForm'
+import { Image } from '@chakra-ui/react';
 
 type Props = {
   type: 'signin' | 'signup'
@@ -22,6 +23,14 @@ export const SignInPage = ({ type }: Props) => {
             ? t('auth.signin.heading')
             : t('auth.register.heading')
         }
+      />
+      <Image
+  src="/images/logo.svg"
+  alt="Typebot"
+  style={{
+    width: '100px',
+    height: 'auto',
+  }}
       />
       <Heading
         onClick={() => {
@@ -53,9 +62,9 @@ export const SignInPage = ({ type }: Props) => {
           <T
             keyName="auth.register.aggreeToTerms"
             params={{
-              terms: <TextLink href={'https://typebot.io/terms-of-service'} />,
+              terms: <TextLink href={'https://bot.facto.com.cn/terms-of-service'} />,
               privacy: (
-                <TextLink href={'https://typebot.io/privacy-policies'} />
+                <TextLink href={'https://bot.facto.com.cn/privacy-policies'} />
               ),
             }}
           />

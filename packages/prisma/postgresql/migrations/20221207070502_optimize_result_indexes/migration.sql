@@ -8,7 +8,7 @@ DROP INDEX IF EXISTS "Result_hasStarted_idx";
 DROP INDEX IF EXISTS "Result_typebotId_idx";
 
 -- CreateIndex
-CREATE INDEX IF NOT EXISTS "Answer_storageUsed_idx" ON "Answer"("storageUsed")
+CREATE INDEX IF NOT EXISTS "Answer_storageUsed_idx_20221207070502" ON "Answer"("storageUsed")
 WHERE
   "storageUsed" IS NOT NULL;
 

@@ -23,9 +23,9 @@ const createHtmlFile = () => {
       <GuestInvitationEmail
         workspaceName={'Typebot'}
         typebotName={'Lead Generation'}
-        url={'https://app.typebot.io'}
-        hostEmail={'host@typebot.io'}
-        guestEmail={'guest@typebot.io'}
+        url={'https://app.facto.com.cn'}
+        hostEmail={'host@facto.com.cn'}
+        guestEmail={'guest@facto.com.cn'}
       />
     ).html
   )
@@ -34,9 +34,9 @@ const createHtmlFile = () => {
     render(
       <WorkspaceMemberInvitation
         workspaceName={'Typebot'}
-        url={'https://app.typebot.io'}
-        hostEmail={'host@typebot.io'}
-        guestEmail={'guest@typebot.io'}
+        url={'https://app.facto.com.cn'}
+        hostEmail={'host@facto.com.cn'}
+        guestEmail={'guest@facto.com.cn'}
       />
     ).html
   )
@@ -54,18 +54,18 @@ const createHtmlFile = () => {
     path.resolve(__dirname, 'dist', 'defaultBotNotification.html'),
     render(
       <DefaultBotNotificationEmail
-        resultsUrl={'https://app.typebot.io'}
+        resultsUrl={'https://app.facto.com.cn'}
         answers={{
           'Group #1': 'Answer #1',
-          Name: 'Baptiste',
-          Email: 'baptiste.arnaud95@gmail.com',
+          Name: 'Typebot',
+          Email: 'hi@facto.hk',
         }}
       />
     ).html
   )
   fs.writeFileSync(
     path.resolve(__dirname, 'dist', 'magicLink.html'),
-    render(<MagicLinkEmail url={'https://app.typebot.io'} />).html
+    render(<MagicLinkEmail url={'https://app.facto.com.cn'} />).html
   )
 }
 
