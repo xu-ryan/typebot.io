@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Starter Kit",
   "openapi": [
-    "/openapi-reference/builder.json",
-    "/openapi-reference/viewer.json"
+    "/openapi/builder.json",
+    "/openapi/viewer.json"
   ],
   "logo": {
     "dark": "/logo/dark.svg",
