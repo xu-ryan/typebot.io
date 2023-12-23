@@ -6,11 +6,11 @@
   },
   "servers": [
     {
-      "url": "https://app.typebot.io/api"
+      "url": "https://app.facto.com.cn/api"
     }
   ],
   "externalDocs": {
-    "url": "https://docs.typebot.io/api-reference"
+    "url": "https://docs.facto.com.cn/api-reference"
   },
   "paths": {
     "/v1/typebots/{typebotId}/linkedTypebots": {

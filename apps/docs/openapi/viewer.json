@@ -6,11 +6,11 @@
   },
   "servers": [
     {
-      "url": "https://typebot.io/api"
+      "url": "https://bot.facto.com.cn/api"
     }
   ],
   "externalDocs": {
-    "url": "https://docs.typebot.io/api-reference"
+    "url": "https://docs.facto.com.cn/api-reference"
   },
   "paths": {
     "/v1/sendMessage": {
@@ -67,7 +67,7 @@
                                 "type": "string"
                               }
                             ],
-                            "description": "Either a Typebot ID or a Typebot object. If you provide a Typebot object, it will be executed in preview mode. ([How can I find my typebot ID?](https://docs.typebot.io/api-reference#how-to-find-my-typebotid))."
+                            "description": "Either a Typebot ID or a Typebot object. If you provide a Typebot object, it will be executed in preview mode. ([How can I find my typebot ID?](https://docs.facto.com.cn/api-reference#how-to-find-my-typebotid))."
                           },
                           "isPreview": {
                             "type": "boolean",
@@ -80,7 +80,7 @@
                           "prefilledVariables": {
                             "type": "object",
                             "additionalProperties": {},
-                            "description": "[More info about prefilled variables.](https://docs.typebot.io/editor/variables#prefilled-variables)"
+                            "description": "[More info about prefilled variables.](https://docs.facto.com.cn/editor/variables#prefilled-variables)"
                           },
                           "isStreamEnabled": {
                             "type": "boolean",
@@ -656,7 +656,7 @@
                                 "type": "string"
                               }
                             ],
-                            "description": "Either a Typebot ID or a Typebot object. If you provide a Typebot object, it will be executed in preview mode. ([How can I find my typebot ID?](https://docs.typebot.io/api-reference#how-to-find-my-typebotid))."
+                            "description": "Either a Typebot ID or a Typebot object. If you provide a Typebot object, it will be executed in preview mode. ([How can I find my typebot ID?](https://docs.facto.com.cn/api-reference#how-to-find-my-typebotid))."
                           },
                           "isPreview": {
                             "type": "boolean",
@@ -669,7 +669,7 @@
                           "prefilledVariables": {
                             "type": "object",
                             "additionalProperties": {},
-                            "description": "[More info about prefilled variables.](https://docs.typebot.io/editor/variables#prefilled-variables)"
+                            "description": "[More info about prefilled variables.](https://docs.facto.com.cn/editor/variables#prefilled-variables)"
                           },
                           "isStreamEnabled": {
                             "type": "boolean",
