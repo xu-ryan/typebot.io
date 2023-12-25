@@ -9,6 +9,8 @@
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
+
+  "sm:flex":{display:none},
   "favicon": "/favicon.png",
   "colors": {
     "primary": "#0042DA",
@@ -24,7 +26,7 @@
   },
   "topbarLinks": [
     {
-      "name": "Github",
+      "name": "Discord",
       "url": "https://github.com/xu-ryan/typebot.io"
     }
   ],
@@ -274,6 +276,6 @@
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/facto_hk",
-    "github": "https://github.com/baptisteArno/typebot.io"
+    "discord": "https://github.com/baptisteArno/typebot.io"
   }
 }
