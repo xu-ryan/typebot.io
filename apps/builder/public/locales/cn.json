@@ -206,7 +206,7 @@
   "folders.createTypebotButton.label": "创建 typebot",
   "folders.folderButton.deleteConfirmationMessage": "你确定要删除<strong>folderName</strong>文件夹吗？ (里面的所有内容都将移至你的仪表板)",
   "folders.typebotButton.delete": "删除",
-  "folders.typebotButton.deleteConfirmationMessage": "你确定要删除你的 typebot<strong>typebotName</strong>吗？",
+  "folders.typebotButton.deleteConfirmationMessage": "你确定要删除 typebot <strong>typebotName</strong>吗？",
   "folders.typebotButton.deleteConfirmationMessageWarning": "其所有关联数据将被删除，无法恢复。",
   "folders.typebotButton.duplicate": "复制",
   "folders.typebotButton.live": "实时",
