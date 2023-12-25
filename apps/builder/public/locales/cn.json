@@ -16,7 +16,7 @@
   "account.apiTokens.table.nameHeader": "名称",
   "account.myAccount.changePhotoButton.label": "更改头像",
   "account.myAccount.changePhotoButton.specification": ".jpg 或 .png，最大 1MB",
-  "account.myAccount.emailInput.disabledTooltip": "更新Email不可用。如果你要更改，请联系技术支持。",
+  "account.myAccount.emailInput.disabledTooltip": "更新Email不可用。如需更改，请联系技术支持。",
   "account.myAccount.emailInput.label": "Email地址: ",
   "account.myAccount.nameInput.label": "姓名: ",
   "account.preferences.appearance.darkLabel": "深色",
