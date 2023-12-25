@@ -37,10 +37,6 @@
   },
   "tabs": [
     {
-      "name": "Self-Hosting",
-      "url": "self-hosting"
-    },
-    {
       "name": "API Reference",
       "url": "api-reference"
     }
