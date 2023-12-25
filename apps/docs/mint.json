@@ -25,12 +25,12 @@
   "topbarLinks": [
     {
       "name": "Github",
-      "url": "https://github.com/baptisteArno/typebot.io"
+      "url": "https://github.com/xu-ryan/typebot.io"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://app.typebot.io"
+    "url": "https://app.facto.com.cn"
   },
   "primaryTab": {
     "name": "Learn"
@@ -49,7 +49,7 @@
     {
       "name": "Community",
       "icon": "discord",
-      "url": "https://typebot.io/discord"
+      "url": "https://bot.facto.com.cn/discord"
     }
   ],
   "navigation": [
@@ -273,7 +273,7 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/Typebot_io",
+    "twitter": "https://twitter.com/facto_hk",
     "github": "https://github.com/baptisteArno/typebot.io"
   }
 }
