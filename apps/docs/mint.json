@@ -24,8 +24,8 @@
   },
   "topbarLinks": [
     {
-      "name": "Github",
-      "url": "https://github.com/xu-ryan/typebot.io"
+      "name": "Discord",
+      "url": "https://bot.facto.com.cn/discord"
     }
   ],
   "topbarCtaButton": {
@@ -36,10 +36,6 @@
     "name": "Learn"
   },
   "tabs": [
-    {
-      "name": "Self-Hosting",
-      "url": "self-hosting"
-    },
     {
       "name": "API Reference",
       "url": "api-reference"
@@ -274,6 +270,6 @@
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/facto_hk",
-    "github": "https://github.com/baptisteArno/typebot.io"
+    "discord": "https://bot.facto.com.cn/discord"
   }
 }
