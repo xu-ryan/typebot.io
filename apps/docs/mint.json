@@ -10,7 +10,7 @@
     "light": "/logo/light.svg"
   },
 
-  "sm:flex":{display:none},
+  "sm:flex":{"display":"none"},
   "favicon": "/favicon.png",
   "colors": {
     "primary": "#0042DA",
