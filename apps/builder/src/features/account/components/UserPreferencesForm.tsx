@@ -21,7 +21,7 @@ import { useRouter } from 'next/router'
 
 const localeHumanReadable = {
   en: 'English',
-  cn: '中文',
+  cn: '中文 (Beta)',
   fr: 'Français',
   de: 'Deutsch',
   pt: 'Português',
