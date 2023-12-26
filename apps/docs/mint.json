@@ -213,7 +213,7 @@
       "pages": ["self-hosting/guides/s3", "self-hosting/guides/planetscale"]
     },
     {
-      "group": "Get started",
+      "group": "Get Started",
       "pages": ["api-reference/authentication", "api-reference/how-to"]
     },
     {
