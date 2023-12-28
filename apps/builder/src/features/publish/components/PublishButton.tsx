@@ -161,7 +161,7 @@ export const PublishButton = ({
                   params={{
                     link: (
                       <TextLink
-                        href="https://docs.typebot.io/breaking-changes#typebot-v6"
+                        href="https://docs.facto.com.cn/breaking-changes#typebot-v6"
                         isExternal
                       />
                     ),
