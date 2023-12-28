@@ -2,7 +2,14 @@ if (typeof jQuery === 'undefined') {
     throw new Error('jQuery is not loaded');
 }
 
-var  url=location.href;
+var url = location.href;
+var pageTitle; // 用于存储页面title
+
+// 获取页面title
+$(document).ready(function () {
+    pageTitle = $('title').text();
+});
+
     $.ajax({
         type : "get",
         url : "https://www.facto.com.cn/assets/jssdk.php?url="+url,
@@ -40,7 +47,7 @@ var  url=location.href;
      })
  		//分享给朋友
      wx.updateAppMessageShareData({
-       title: title ?? typebotName,
+       title: pageTitle,
        desc: 'Extremely flexible AI chatbot',
        link: url,
        imgUrl:  'https://bot.facto.com.cn/images/typebot.png',
