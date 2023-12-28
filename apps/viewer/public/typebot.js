@@ -38,7 +38,7 @@ $(document).ready(function () {
     wx.ready(function () {
          //分享到朋友圈
      wx.updateTimelineShareData({
-       title: 'Typebot - Extremely flexible AI chatbot',
+       title: pageTitle + ' | Typebot',
        link: url,
        imgUrl: 'https://bot.facto.com.cn/images/typebot.png',
        success: function (res) {
@@ -47,7 +47,7 @@ $(document).ready(function () {
      })
  		//分享给朋友
      wx.updateAppMessageShareData({
-       title: pageTitle,
+       title: pageTitle + ' | Typebot',
        desc: 'Extremely flexible AI chatbot',
        link: url,
        imgUrl:  'https://bot.facto.com.cn/images/typebot.png',
