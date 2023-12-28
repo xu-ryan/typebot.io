@@ -40,7 +40,7 @@ var  url=location.href;
      })
  		//分享给朋友
      wx.updateAppMessageShareData({
-       title: 'Typebot',
+       title: title,
        desc: 'Extremely flexible AI chatbot',
        link: url,
        imgUrl:  'https://bot.facto.com.cn/images/typebot.png',
