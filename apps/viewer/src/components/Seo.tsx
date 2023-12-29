@@ -26,6 +26,7 @@ export const SEO = ({
 }: SEOProps) => (
   <>
     <Head key="seo">
+      <metaname="viewport"content="user-scalable=no,width=device-width,initial-scale=1,maximum-scale=1">
       <title>{title ?? typebotName}</title>
       <meta name="robots" content="noindex" />
       <link
