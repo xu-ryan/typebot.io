@@ -1,6 +1,7 @@
 import { DevTools, Tolgee } from '@tolgee/react'
 import { FormatIcu } from '@tolgee/format-icu'
 import en from '../i18n/en.json'
+import cn from '../i18n/cn.json'
 import fr from '../i18n/fr.json'
 import de from '../i18n/de.json'
 import pt from '../i18n/pt.json'
@@ -16,10 +17,11 @@ export const tolgee = Tolgee()
     apiKey: env.NEXT_PUBLIC_TOLGEE_API_KEY,
     apiUrl: env.NEXT_PUBLIC_TOLGEE_API_URL,
     defaultLanguage: 'en',
-    availableLanguages: ['en', 'fr', 'de', 'pt', 'pt-BR', 'es', 'ro'],
+    availableLanguages: ['en', 'cn','fr', 'de', 'pt', 'pt-BR', 'es', 'ro'],
     fallbackLanguage: 'en',
     staticData: {
       en,
+      cn,
       fr,
       de,
       pt,
