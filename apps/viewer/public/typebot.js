@@ -13,7 +13,7 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-    $("#qrCodeImage").on("touchstart", function () {
+    $(document).on("touchstart", "img", function () {
         wx.scanQRCode({
             needResult: 1,
             scanType: ["qrCode", "barCode"],
@@ -25,6 +25,7 @@ $(document).ready(function () {
         });
     });
 });
+
 
 
     $.ajax({
