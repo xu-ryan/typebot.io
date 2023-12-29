@@ -10,24 +10,6 @@ $(document).ready(function () {
     pageTitle = $('title').text();
 });
 
-
-
-$(document).ready(function () {
-    $(document).on("touchstart", "img", function () {
-        wx.scanQRCode({
-            needResult: 1,
-            scanType: ["qrCode", "barCode"],
-            success: function (res) {
-                var result = res.resultStr;
-                // 处理扫描结果
-                alert(result);
-            }
-        });
-    });
-});
-
-
-
     $.ajax({
         type : "get",
         url : "https://www.facto.com.cn/assets/jssdk.php?url="+url,
@@ -45,9 +27,6 @@ $(document).ready(function () {
                 jsApiList: [
                     'updateAppMessageShareData',
                     'updateTimelineShareData',
-
-'scanQRCode',
-                  
                 ]
             });
         },
